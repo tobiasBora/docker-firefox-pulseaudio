@@ -1,4 +1,4 @@
-# Dockerized Firefox
+###### Dockerized Firefox ######
 
 Run Firefox inside an isolated [Docker](http://www.docker.io) container. This is achieved by sharing a socket for X11 and PulseAudio. This code is based on the terlar code for spotify [docker-spotify-pulseaudio](https://github.com/terlar/docker-spotify-pulseaudio). This version does not get/save the configuration of firefox in the user home, everything stay inside the docker container.
 
@@ -17,7 +17,7 @@ Run Firefox inside an isolated [Docker](http://www.docker.io) container. This is
   sudo docker build -t firefox .
   ```
 
-3. Run the provided spotify script:
+3. Run the provided script:
 
   ```sh
   ./scripts/firefox
